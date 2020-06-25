@@ -1,5 +1,5 @@
 {
-  "name": "react-config",
+  "name": "@yagya/react-app-config-template",
   "version": "1.0.0",
   "description": "React App Setup using Webpack with Manual Configurations",
   "main": "src/index.js",
@@ -9,6 +9,13 @@
     "format": "prettier --write \"src/**/*.js\"",
     "eslint-fix": "eslint --fix \"src/**/*.js\"",
     "build": "webpack --mode production"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/yagya/react-app-config-template.git"
   },
   "keywords": ["react", "webpack", "configuration"],
   "author": "Yagya Gaire",
