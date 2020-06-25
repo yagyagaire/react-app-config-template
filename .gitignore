@@ -1,0 +1,13 @@
+#Dependency Directories
+node_modules
+
+#Compiled build project
+dist
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Logs
+logs
+*.log

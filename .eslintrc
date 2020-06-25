@@ -1,0 +1,13 @@
+{
+    "parser": "babel-eslint",
+    "extends": "react", //use configurations from react-config files
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "settings": {
+        "react": {
+            "version": "detect" //detect react version and apply linting rules accordingly
+        }
+    }
+}
